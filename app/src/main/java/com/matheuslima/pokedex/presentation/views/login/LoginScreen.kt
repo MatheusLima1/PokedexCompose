@@ -1,4 +1,4 @@
-package com.matheuslima.pokedex.views.login
+package com.matheuslima.pokedex.presentation.views.login
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -8,8 +8,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
-import com.matheuslima.pokedex.views.pokemonList.PokemonListViewModel
-import com.matheuslima.pokedex.views.pokemonList.PokemonListViewModelI
+import com.matheuslima.pokedex.presentation.views.pokemonList.PokemonListViewModel
+import com.matheuslima.pokedex.presentation.views.pokemonList.PokemonListViewModelI
 
 @Composable
 fun LoginScreen(

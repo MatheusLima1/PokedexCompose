@@ -1,4 +1,6 @@
-package com.matheuslima.pokedex.data.remote.responses
+package com.matheuslima.pokedex.domain.model
+
+import com.matheuslima.pokedex.data.remote.responses.Result
 
 data class PokemonList(
     val count: Int,

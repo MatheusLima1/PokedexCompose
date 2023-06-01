@@ -1,4 +1,4 @@
-package com.matheuslima.pokedex.views.pokemonList
+package com.matheuslima.pokedex.presentation.views.pokemonList
 
 import android.graphics.drawable.Drawable
 import androidx.compose.ui.graphics.Color

@@ -1,4 +1,4 @@
-package com.matheuslima.pokedex.views.pokemonList
+package com.matheuslima.pokedex.presentation.views.pokemonList
 
 import android.graphics.Bitmap
 import android.graphics.drawable.BitmapDrawable
@@ -9,9 +9,9 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.palette.graphics.Palette
 import com.matheuslima.pokedex.data.models.PokedexListEntry
-import com.matheuslima.pokedex.repository.PokemonRepositoryI
-import com.matheuslima.pokedex.util.Constants.PAGE_SIZE
-import com.matheuslima.pokedex.util.Resource
+import com.matheuslima.pokedex.data.repository.PokemonRepositoryI
+import com.matheuslima.pokedex.data.util.Constants.PAGE_SIZE
+import com.matheuslima.pokedex.data.util.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

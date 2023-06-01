@@ -1,4 +1,4 @@
-package com.matheuslima.pokedex.views.pokemonList
+package com.matheuslima.pokedex.presentation.views.pokemonList
 
 import android.media.ImageReader
 import android.widget.Space
@@ -57,7 +57,7 @@ import coil.compose.rememberImagePainter
 import coil.request.ImageRequest
 import com.matheuslima.pokedex.R
 import com.matheuslima.pokedex.data.models.PokedexListEntry
-import com.matheuslima.pokedex.ui.theme.RobotoCondensed
+import com.matheuslima.pokedex.presentation.ui.theme.RobotoCondensed
 
 @Composable
 fun PokemonListScreen(

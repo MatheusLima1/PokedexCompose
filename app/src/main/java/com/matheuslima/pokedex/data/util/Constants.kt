@@ -1,4 +1,4 @@
-package com.matheuslima.pokedex.util
+package com.matheuslima.pokedex.data.util
 
 object Constants {
     const val BASE_URL = "https://pokeapi.co/api/v2/"

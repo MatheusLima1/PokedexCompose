@@ -1,9 +1,9 @@
-package com.matheuslima.pokedex.di
+package com.matheuslima.pokedex.data.di
 
 import com.matheuslima.pokedex.data.remote.PokeApi
-import com.matheuslima.pokedex.repository.PokemonRepository
-import com.matheuslima.pokedex.repository.PokemonRepositoryI
-import com.matheuslima.pokedex.util.Constants.BASE_URL
+import com.matheuslima.pokedex.data.repository.PokemonRepository
+import com.matheuslima.pokedex.data.repository.PokemonRepositoryI
+import com.matheuslima.pokedex.data.util.Constants.BASE_URL
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

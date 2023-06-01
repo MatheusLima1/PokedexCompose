@@ -1,19 +1,18 @@
-package com.matheuslima.pokedex
+package com.matheuslima.pokedex.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.runtime.remember
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.text.toLowerCase
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.matheuslima.pokedex.ui.theme.JetpackComposePokedexTheme
-import com.matheuslima.pokedex.views.pokemonDetail.PokemonDetailScreen
-import com.matheuslima.pokedex.views.pokemonList.PokemonListScreen
+import com.matheuslima.pokedex.presentation.ui.theme.JetpackComposePokedexTheme
+import com.matheuslima.pokedex.presentation.views.pokemonDetail.PokemonDetailScreen
+import com.matheuslima.pokedex.presentation.views.pokemonList.PokemonListScreen
 import dagger.hilt.android.AndroidEntryPoint
 import java.util.Locale
 

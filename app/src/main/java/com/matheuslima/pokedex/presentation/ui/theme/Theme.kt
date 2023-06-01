@@ -1,4 +1,4 @@
-package com.matheuslima.pokedex.ui.theme
+package com.matheuslima.pokedex.presentation.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

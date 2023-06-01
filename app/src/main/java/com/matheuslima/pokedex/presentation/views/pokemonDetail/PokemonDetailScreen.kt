@@ -1,4 +1,4 @@
-package com.matheuslima.pokedex.views.pokemonDetail
+package com.matheuslima.pokedex.presentation.views.pokemonDetail
 
 import android.widget.Space
 import androidx.compose.animation.core.animateFloatAsState
@@ -53,10 +53,10 @@ import coil.compose.AsyncImage
 import com.matheuslima.pokedex.R
 import com.matheuslima.pokedex.data.remote.responses.Pokemon
 import com.matheuslima.pokedex.data.remote.responses.Type
-import com.matheuslima.pokedex.util.Resource
-import com.matheuslima.pokedex.util.parseStatToAbbr
-import com.matheuslima.pokedex.util.parseStatToColor
-import com.matheuslima.pokedex.util.parseTypeToColor
+import com.matheuslima.pokedex.data.util.Resource
+import com.matheuslima.pokedex.data.util.parseStatToAbbr
+import com.matheuslima.pokedex.data.util.parseStatToColor
+import com.matheuslima.pokedex.data.util.parseTypeToColor
 import java.lang.Math.round
 import java.util.Locale
 
